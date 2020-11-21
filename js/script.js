@@ -20,6 +20,6 @@ let words = '';
 		txtIndex = 0;
 	}
 
-	setTimeout(ngetik, 400);
+	setTimeout(ngetik, 450);
 
 })();
