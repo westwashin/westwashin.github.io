@@ -79,7 +79,10 @@ if(isset($_POST['submit']))
 					<img src="img/meme.JPG">
 					<h2>Hai...<br>
 						Saya adalah seorang <span class="efek-ngetik"></span></h2>
-					<p>Selamat datang di website portfolio saya!</p>
+					<p>Selamat datang di website portfolio saya!<br>
+						<a href="mailto:zjaksu@gmail.com"><i class="far fa-envelope"> zjaksu@gmail.com</i></a><br>
+						<a href="https://github.com/westwashin"><i class="fab fa-github"> westwashin</i></a><br>
+						<a href="https://www.linkedin.com/in/syuja-zhafran-777b331ba/"><i class="fab fa-linkedin"> Syuja Zhafran</i></a></p>
 				</div>
 			</div>
 		</section>
@@ -210,7 +213,7 @@ if(isset($_POST['submit']))
                         <textarea class="form-control" id="Message" name="message" rows="5" placeholder="Enter Message..." required></textarea>
                     </div>
                     <div class="text-center">
-                        <button type="submit" name="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Send</button>
+                        <button type="submit" name="submit" class="submit-btn"> Send</button>
                     </div>            
                 </form>
 			</div>
