@@ -5,31 +5,32 @@
 	color: #333;
 }
 header {
-	height:70px;
+	height:5px;
 }
-header h1 {
+
+nav h1 {
 	display: inline-block;
 	float: none;
 	padding:15px 24px;
 	text-transform: uppercase;
 }
-header h1 a {
+nav h1 a {
 	transition: .3s;
 }
-header h1 a:hover {
+nav h1 a:hover {
 	color: #fcec03;
 }
-header ul {
+nav ul {
 	float: right;
 }
-header ul li {
+nav ul li {
 	padding:24px;
 	display: inline-block;
 }
-header ul li a {
+nav ul li a {
 	transition: .3s;
 }
-header ul li a:hover {
+nav ul li a:hover {
 	color: #fcec03;
 }
 a {
@@ -44,6 +45,20 @@ a {
 	display: block;
 	clear: both;
 }
+
+.container-nav {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	clear: both;
+  }
+
+  .container-nav::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
 .mobile-menu {
 	float: right;
 	display: none;
@@ -252,6 +267,11 @@ h1 {
   font-size: 2.5rem;
 }
 
+h4 {
+	text-align:center;
+	padding-bottom: 10px;
+}
+
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -388,3 +408,36 @@ time {
     border-color: transparent #F45B69 transparent transparent;
   }
 }
+
+/* JAVASCRIPT
+-----------------------------------------------------*/
+
+
+  nav {
+	background: white;
+	top: 0;
+	width: 100%;
+	transition:all 0.5s;
+	position: relative;
+	z-index: 1;
+  }
+  
+  body.fixed-nav nav {
+	position: fixed;
+  }
+  
+  nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+  }
+  
+  nav li {
+	flex: 1;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:white;
+  }
