@@ -53,11 +53,6 @@ a {
 	clear: both;
   }
 
-  .container-nav::after {
-	content: '';
-	display: block;
-	clear: both;
-}
 
 .mobile-menu {
 	float: right;
