@@ -70,7 +70,7 @@ a {
 	bottom: 0;
 	left: -300px;
 	width:300px;
-	background-color: rgba(247, 200, 58, .9);
+	background-color: rgba(128,128,128, .9);
 	transition: .3s;
 	z-index: 9999;
 }
@@ -83,7 +83,7 @@ a {
 	transition-property: background-color;
 }
 .sidebar ul li:hover {
-	background-color: #fcec03;
+	background-color: #808080;
 }
 #check:checked ~ .sidebar {
 	left: 0;
@@ -136,7 +136,7 @@ section h3::after {
 	bottom: -1px;
 	width:40px;
 	height:4px;
-	background-color: #fcec03;
+	background-color: #808080;
 	left: calc(50% - 20px);
 }
 #about p {
@@ -157,7 +157,7 @@ section h3::after {
 }
 .bar .nilai {
 	height:30px;
-	background-color: #fcec03;
+	background-color: #808080;
 	display: inline-block;
 	color:#000000;
 	text-align: center;
@@ -301,7 +301,7 @@ h4 {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #fcec03;
+  background: #808080;
 }
 
 .timeline ul li div::before {
