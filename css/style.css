@@ -18,7 +18,7 @@ nav h1 a {
 	transition: .3s;
 }
 nav h1 a:hover {
-	color: #fcec03;
+	color: #808080;
 }
 nav ul {
 	float: right;
@@ -31,7 +31,7 @@ nav ul li a {
 	transition: .3s;
 }
 nav ul li a:hover {
-	color: #fcec03;
+	color: #808080;
 }
 a {
 	text-decoration: none;
