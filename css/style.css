@@ -159,7 +159,7 @@ section h3::after {
 	height:30px;
 	background-color: #808080;
 	display: inline-block;
-	color:#000000;
+	color:#ffffff;
 	text-align: center;
 }
 .html {
@@ -174,7 +174,7 @@ section h3::after {
 .php {
 	width:40%;
 }
-.ps {
+.python {
 	width:65%;
 }
 .col-4 {
